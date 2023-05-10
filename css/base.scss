@@ -1,3 +1,146 @@
 * {
   font-family: 'Open Sans', sans-serif;
 }
+
+.container-content {
+  padding: 90px 0;
+
+  @media (max-width: 560px) {
+    padding: 30px 0;
+  }
+}
+
+.delloite-tx-color {
+  color: #95D600;
+}
+
+.delloite-bg-color {
+  background-color: #95D600;
+}
+
+.btn-default {
+  background-color: #95D600;
+  color: black;
+  border-radius: 0;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 40px;
+  font-weight: 600;
+  transition: all 0.5s;
+
+  &:hover {
+    color: #FFFFFF;
+    background-color: #313235;
+  }
+}
+
+header {
+  background-color: black;
+  background-image: url("../img/delloitte-banner-detail.png");
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 100px 0 150px;
+
+  img {
+    margin-bottom: 50px;
+    width: 350px;
+  }
+
+  @media (max-width: 560px) {
+    background-size: 200px;
+    padding: 40px 20px 50px;
+  }
+}
+
+.content-1 {
+  background-image: url("../img/shutterstock_1492614968_lo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 200px;
+
+  @media (max-width: 560px){
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+
+  .overlay-background {
+    background-color: rgba(20, 38, 28, 0.8);
+  }
+
+  h2 {
+    font-size: 52px;
+
+    @media (max-width: 560px){
+      font-size: 32px;
+    }
+  }
+}
+
+.content-2 {
+  background-color: #f4f6f4;
+
+  .box-green-content {
+    margin-top: -200px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(149,214,0,1) 15%, rgba(255,255,255,1) 15%);
+
+    @media (max-width: 560px){
+      margin-top: -90px;
+      background-image: linear-gradient(90deg, rgb(149, 214, 0) 4%, rgb(255, 255, 255) 4%);
+    }
+  }
+}
+
+.content-3 {
+  background-color: #f4f6f4;
+
+  .boxs-content {
+    .box {
+      border: 1px solid #d2d5db;
+      padding: 50px;
+      width: 420px;
+      margin-bottom: 20px;
+      transition: border 0.5s;
+
+      &:hover {
+        border-color: #95D600;
+      }
+    }
+
+    .box-2 {
+      border: 1px solid #d2d5db;
+      padding: 50px;
+      width: 49%;
+      margin-bottom: 20px;
+      transition: border 0.5s;
+
+      &:hover {
+        border-color: #95D600;
+      }
+
+      @media (max-width: 560px){
+        width: 100%;
+      }
+    }
+  }
+}
+
+footer {
+  form {
+    .w-50 {
+      width: 48%!important;
+
+      @media (max-width: 560px){
+        width: 100%!important;
+      }
+    }
+
+    a {
+      color: #95D600;
+    }
+  }
+}
