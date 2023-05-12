@@ -132,6 +132,9 @@ footer form .w-50 {
     width: 100% !important;
   }
 }
+footer form .form-group {
+  margin-top: 10px;
+}
 footer form a {
   color: #95D600;
 }
